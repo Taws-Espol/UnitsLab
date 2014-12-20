@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset=utf-8>
+		<title>UnitsLab: F&iacute;sica</title>
+		<meta http-equiv="content-type" content="text/html;">
+		<meta name="author" content="Denny K. Schuldt">
+		<meta name="description" content="UnitsLab">
+		<meta name="Keywords" content="HTML5, CSS3, Javascript, Jquery, TAWS, ESPOL, FIEC"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet prefetch" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/estilo.css">
+	</head>
+	<body>
+		<header>
+			<h1>UnitsLab</h1>
+			<label>F&iacute;sica</label>
+			<h5 id="mensaje">&iexcl;<strong>Combina</strong> las unidades para crear muchas mas!</h5>
+			<span id="contadorUnidades">4/17</span>
+		</header>
+		<aside>
+			<div class="unit super"><label>m</label><footer>metro</footer></div>
+			<div class="unit super"><label>kg</label><footer>kilogramo</footer></div>
+			<div class="unit super"><label>s</label><footer>segundo</footer></div>
+			<div class="unit super"><label>A</label><footer>ampere</footer></div>
+		</aside>
+		<section id="secciones">
+			<div id="seccionTres">				
+				<div id="area">
+					<div id="mult"></div>
+					<div id="division"></div>
+				</div>				
+				<button id="btnVaciar" title="Limpiar el area"><i class="icon-trash icon-black"></i>&nbsp;&nbsp;Borrar unidades</button>
+			</div>
+			<div class="seccionDos">
+				<div id="seccionDos">
+					<h4>Unidades restantes:</h4>
+					<p id="m2">metro2</p>
+					<p id="m3">metro3</p>
+					<p id="Hz">hertz</p>
+					<p id="N">newton</p>
+					<p id="J">joule</p>
+					<p id="W">watt</p>				
+					<p id="C">coulomb</p>
+					<p id="V">volt</p>
+					<p id="w">ohm</p>
+					<p id="F">farad</p>
+					<p id="Wb">weber</p>
+					<p id="T">tesla</p>
+					<p id="H">henry</p>
+				</div>
+				<div id="hint"></div>
+			</div>
+		</section>
+		<footer>
+			<a href="https://www.facebook.com/tawsespol" target="_blank" id="facebook"></a>
+			<a href="https://twitter.com/UnitsLab" target="_blank" id="twitter"></a>
+			<a href="https://github.com/DenkSchuldt/UnitsLab" target="_blank" id="github"></a>
+		</footer>
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript" src="./js/jquery.event.ue.js"></script>
+		<script type="text/javascript" src="./js/jquery.udraggable.js"></script>
+		<script type="text/javascript" src="./js/jquery-ui.js"></script>
+		<script type="text/javascript" src="./js/jrumble.1.3.min.js"></script>
+		<script type="text/javascript" src="./js/funciones.js"></script>
+	</body>
+</html>
